@@ -1,0 +1,21 @@
+[project]
+name = "xml_to_acts"
+version = "1.0.1"
+requires-python = ">=3.9"
+dependencies = ["pydrawio~=1.1.0", "click"]
+
+[project.scripts]
+xml-to-acts = "xml_to_acts.cli:main_cli"
+
+[project.optional-dependencies]
+test = ["pytest~=7.4.0"]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "DEBUG"
+testpaths = ["tests"]
+pythonpath = ["src"]

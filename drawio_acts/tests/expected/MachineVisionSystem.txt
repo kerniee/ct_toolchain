@@ -1,0 +1,13 @@
+[System]
+Name: Convertor result
+
+[Parameter]
+Background(enum): Dark,Light
+Color(enum): Blue,Green,Red
+Exemplars(enum): Undefined color,Undefined shape,Undefined size
+Is-a(enum): Equilateral,Isosceles,Scalene
+Lighting(enum): Bright,Dim
+Shape(enum): Circle,Square
+Size(enum): Large,Small
+
+[Constraint]
