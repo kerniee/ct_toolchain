@@ -7,7 +7,8 @@ and [ACTS](tools/ACTS3.2).
 # Workflow
 1. Modeling the Input Domain Using the Classification Tree Method  
 - Go to [draw.io](https://draw.io/)  
-- Draw Classification Tree. Make sure to name all nodes and connect them with directed edges
+- Draw Classification Tree. Make sure to name all nodes and connect them with directed edges.
+[Example](https://drive.google.com/file/d/1MaCcbisBb0kPYb22CQQGL1coKpZkHF41/view?usp=sharing)
 - Go to File > Export > XML... and save it to device
 2. Convert Classification Tree to ACTS
 - Make sure you have python with version 3.9 or greater installed
